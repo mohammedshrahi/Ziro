@@ -177,15 +177,21 @@ public class LoginActivity extends AppCompatActivity implements LoginPresenter.L
 
     @Override
     public void login(User user) {
-        startActivity(new Intent(this, MainActivity.class));
+        Intent i = new Intent(this, MainActivity.class);
+        i.putExtra("name",user.name);
+        i.putExtra("phone",user.phone);
+        startActivity(i);
         finish();
     }
 
     @Override
-    public void haveUser(User haveuser) {
-        if(haveuser!=null)
+    public void haveUser(User user) {
+        if(user!=null)
         {
-            startActivity(new Intent(this, MainActivity.class));
+            Intent i = new Intent(this, MainActivity.class);
+            i.putExtra("name",user.name);
+            i.putExtra("phone",user.phone);
+            startActivity(i);
             finish();
         }
 
