@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="recycler_height">40dp</dimen>
+    <dimen name="font_larg">17sp</dimen>
+    <dimen name="font_small">10sp</dimen>
+</resources>

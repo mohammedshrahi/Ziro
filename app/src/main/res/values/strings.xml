@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ziro Todo List</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="Update">Update</string>
+    <string name="mobile_number">Mobile:0545000159</string>
+    <string name="login">Login</string>
+    <string name="full_name">full_name</string>
+    <string name="FACEBOOK_APP_ID">351914902030388</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">cfaddecf36fcc229021af03be1c8a173
+</string>
+</resources>
